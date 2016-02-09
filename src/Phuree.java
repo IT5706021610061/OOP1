@@ -77,6 +77,6 @@ public static void main (String[]args){
 
 	else if (100 == a9+a2+a3+a4+a5+a6+a8)
 		System.out.println(a2+"\n"+a3+"\n"+a4+"\n"+a5+"\n"+a6+"\n"+a8+"\n"+a9);
-	else System.out.println("Number > 100 or Number < 100");
+	else System.out.println("Number > 100 or Number < 100" );
 }
 }
