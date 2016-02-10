@@ -1,11 +1,10 @@
 import java.util.Scanner;
 
-public class Phuree {
-
+public class SevenDwarves {
 
 public static void main (String[]args){
 	Scanner scan = new Scanner (System.in);
-	int a,a2,a3,a4,a5,a6,a7,a8,a9,sum;
+	int a,a2,a3,a4,a5,a6,a7,a8,a9;
 	
 	System.out.println("Enter 9 Number of Dwarves 1-99 : ");
 	a = scan.nextInt();
@@ -17,6 +16,7 @@ public static void main (String[]args){
 	a7 = scan.nextInt();
 	a8 = scan.nextInt();
 	a9 = scan.nextInt();
+	scan.close();
 	
 
 	if (100 == a+a2+a3+a4+a5+a6+a7)
